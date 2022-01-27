@@ -1,0 +1,26 @@
+.navbarContainer {
+  width: 100%;
+  height: 6rem;
+  margin-top: 1rem;
+  padding: 1.3rem 0.6rem 1.3rem 0;
+}
+
+.navbarListAndLink {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.links {
+  margin: 0 1.3rem 0 1.3rem;
+  text-decoration: none;
+}
+
+.links > li {
+  list-style-type: none;
+  border: 0.1rem solid white;
+  padding: 1rem;
+  color: white;
+}
