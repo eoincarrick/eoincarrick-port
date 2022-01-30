@@ -1,0 +1,27 @@
+/* .navbarContainer {
+  height: 5rem;
+  border-bottom: 0.1rem solid black;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+.e,
+.c {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.e {
+  background-color: brown;
+}
+
+.c {
+  background-color: rgb(255, 94, 0);
+} */
