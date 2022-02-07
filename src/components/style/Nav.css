@@ -14,7 +14,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
   width: 50%;
+  padding: 0.5rem;
+}
+
+.logoName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.3rem;
 }
 
 .navIcon {
@@ -22,16 +29,20 @@
   padding: 0.1rem;
   border: 0.01rem solid #fff;
   display: flex;
+  width: 2rem;
+  height: 2rem;
   justify-content: center;
   align-items: center;
   margin-top: 0.1rem;
+  display: none;
 }
 
 .nav {
   width: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .link {
@@ -40,4 +51,84 @@
   border: 0.01rem solid #fff;
   padding: 0.5rem;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .logoName {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+  }
+
+  .nav {
+    position: absolute;
+    top: 4.01rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+    background-color: blanchedalmond;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #000;
+    border: none !important;
+    font-size: 1rem;
+  }
+
+  .navIcon {
+    font-size: 2.2rem;
+    padding: 0.1rem;
+    border: 0.01rem solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem;
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logoName {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    display: block;
+  }
+
+  .navIcon {
+    font-size: 2.2rem;
+    padding: 0.1rem;
+    border: 0.01rem solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1rem 1rem 0 1rem;
+    display: block;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
+  }
 }

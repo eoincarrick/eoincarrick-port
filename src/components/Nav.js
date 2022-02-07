@@ -9,7 +9,7 @@ export const Nav = () => {
   return (
     <div className="navContainer">
       <div className="btn logo">
-        <p>eoincarrick</p>
+        <p className="logoName">eoincarrick</p>
         <FaBars className="navIcon" />
       </div>
       <nav className="nav">
