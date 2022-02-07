@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+.navContainer {
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.navIcon {
+  font-size: 2.2rem;
+  padding: 0.1rem;
+  border: 0.01rem solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.1rem;
+}
+
+.nav {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  border: 0.01rem solid #fff;
+  padding: 0.5rem;
+  font-size: 1rem;
+}

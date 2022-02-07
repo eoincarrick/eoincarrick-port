@@ -1,25 +1,31 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
-function Nav() {
+import { Link } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
+
+import "./style/Nav.css";
+
+export const Nav = () => {
   return (
     <div className="navContainer">
+      <div className="btn logo">
+        <p>eoincarrick</p>
+        <FaBars className="navIcon" />
+      </div>
       <nav className="nav">
-        <Link className="links" to="/">
+        <Link className="link" to="/">
           Home
         </Link>
-        <Link className="links" to="/About">
+        <Link className="link" to="/about-me">
           About
         </Link>
-        <Link className="links" to="/Marketplace">
+        <Link className="link" to="/projects-overview">
           Projects
         </Link>
-        <Link className="links" to="/FAQ">
+        <Link className="link" to="/contact-me">
           Contact
         </Link>
       </nav>
     </div>
   );
-}
-
-export default Nav;
+};
